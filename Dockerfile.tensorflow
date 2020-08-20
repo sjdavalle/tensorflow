@@ -127,4 +127,4 @@ RUN bazel build -c opt \
             --copt=-w \
             --jobs=26 \
             --cxxopt="-D_GLIBCXX_USE_CXX11_ABI=0" \
-            //tensorflow/tools/lib_package:libtensorflow
+            //tensorflow/tools/pip_package:build_pip_package
